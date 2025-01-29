@@ -11,18 +11,22 @@ import VideoTestimonials from "@/components/customComponents/Testimonials/VideoT
 import FactAndFiqure from "@/components/customComponents/FactAndFigures/FactAndFiqure";
 import Awards from "@/components/customComponents/Awards/Awards";
 import Benifits from "@/components/customComponents/Benefits/Benefits";
+import MediaSection from "@/components/customComponents/Media/Media";
 import Tedx from "@/components/customComponents/Tedx/Tedx";
 import Tedx2 from "@/components/customComponents/Tedx/Tedx2";
 export default function Home() {
   return (
+    
     <div >
 <Hero></Hero>
 <TechStack/>
+
 <TopLeaders/>
 <LeftRightAlumniCarousel/>
 <Projets/>
 <VideoTestimonials/>
 <Benifits></Benifits>
+<MediaSection></MediaSection>
 {/* <div>
 <OutCome/>
 </div> */}
