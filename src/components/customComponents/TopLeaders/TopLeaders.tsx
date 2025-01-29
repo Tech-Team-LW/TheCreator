@@ -4,7 +4,7 @@ import { Vortex } from "../../ui/vortex";
 export function TopLeaders() {
   return (
     <div className="w-[100%] mx-auto rounded-md  h-[20rem] overflow-hidden">
-      <Vortex
+      <Vortex baseSpeed={0}
         backgroundColor="black"
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
       >
