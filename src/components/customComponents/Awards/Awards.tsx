@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 
 const Award = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto p-6">
+    <div className="w-full max-w-7xl mx-auto p-6 bg-black">
       <Card className="bg-white shadow-lg rounded-[40px] px-4 sm:px-6 md:px-10 py-8 relative">
         <div className="flex flex-col sm:flex-row items-center sm:items-start justify-between">
           {/* Left Section */}
@@ -14,13 +14,13 @@ const Award = () => {
                 alt="Microsoft Logo" 
                 className="h-12 w-12 sm:h-16 sm:w-16 md:h-20 md:w-20"
               />
-              <span className="text-[#666666] text-xl sm:text-2xl md:text-3xl font-semibold">Microsoft</span>
+              <span className="text-[#000000] text-xl sm:text-2xl md:text-3xl font-semibold">Microsoft</span>
             </div>
           </div>
 
           {/* Center Section */}
           <div className="flex flex-col text-center sm:text-left sm:ml-12 sm:mr-auto z-10 md:pt-0 pt-4">
-            <h2 className="text-[#0A2751] text-2xl sm:text-3xl md:text-[40px] font-bold leading-[1.1] mb-3">
+            <h2 className="text-[#000000] text-2xl sm:text-3xl md:text-[40px] font-bold leading-[1.1] mb-3">
               2024 Partner Of the Year
             </h2>
             <div className="flex flex-col text-[#666666] gap-1">

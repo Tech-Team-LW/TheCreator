@@ -46,12 +46,12 @@ const benefitsData = [
 
 export default function Benifits() {
   return (
-    <div className="min-h-full w-full flex items-center justify-center bg-white p-4">
-      <div className="max-w-6xl w-full bg-white rounded-lg shadow-lg p-8">
-        <h1 className="text-3xl font-bold text-center text-gray-900 mb-4">
+    <div className="min-h-full w-full flex items-center justify-center bg-black p-4">
+      <div className="max-w-6xl w-full bg-black rounded-lg shadow-lg p-8">
+        <h1 className="text-3xl font-bold text-center text-white mb-4">
           Benefits of Summer Program 2025
         </h1>
-        <h2 className="text-xl text-center text-gray-700 mb-8">
+        <h2 className="text-xl text-center text-white mb-8">
           Learn with Engineering students from Across India
         </h2>
 

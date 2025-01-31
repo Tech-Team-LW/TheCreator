@@ -83,13 +83,13 @@ const item = {
 
 export default function TechStack() {
   return (
-    <section className="container  mx-auto px-4 py-8">
+    <section className="container bg-black mx-auto px-4 py-8">
       <div className="grid max-w-7xl gap-8 lg:grid-cols-2 lg:gap-12 items-center max-w-6xl" >
         <div className="space-y-4">
-          <h1 className="text-3xl font-bold tracking-tight lg:text-4xl">
+          <h1 className="text-3xl text-white font-bold tracking-tight lg:text-4xl">
             Learn, Research, Integrate & Build Industry Live Summer Project
           </h1>
-          <p className="text-muted-foreground text-base">
+          <p className="text-muted-foreground text-base text-white">
             Master modern technologies through hands-on experience with industry-standard tools and frameworks.
           </p>
         </div>

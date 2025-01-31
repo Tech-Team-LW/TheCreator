@@ -32,7 +32,7 @@ export function IndiaMap({ connections }: { connections: Connection[] }) {
 
   const svgMap = map.getSVG({
     radius: 0.2,
-    color: theme === "dark" ? "#FFFFFF30" : "#00000030",
+    color: theme === "dark" ? ' #ffffff' : '#ffffff',
     backgroundColor: "transparent"
   });
 

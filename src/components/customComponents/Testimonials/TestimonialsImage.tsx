@@ -23,12 +23,12 @@ export default function ImageTestimonials() {
   };
 
   return (
-    <div className="bg-[#ffffff] p-6 mx-auto ">
+    <div className="bg-[#000000] p-6 mx-auto ">
       <div className="mx-auto max-w-6xl" >
-        <h2 className="text-gray-700 text-md font-semibold">
+        <h2 className="text-white text-md font-semibold">
           HERE IT FROM THEM
         </h2>
-        <h2 className="text-black text-2xl md:text-3xl font-bold mb-10 mt-2">
+        <h2 className="text-white text-2xl md:text-3xl font-bold mb-10 mt-2">
           Ambitious Student
         </h2>
         
@@ -36,7 +36,7 @@ export default function ImageTestimonials() {
           {displayedTestimonials.map((post) => (
             <Card
               key={post.id}
-              className={`relative overflow-hidden bg-[#ffffff] text-black border border-gray-500 mb-4 break-inside-avoid`}
+              className={`relative overflow-hidden bg-[#000000] text-white border border-gray-500 mb-4 break-inside-avoid`}
             >
          
                 <>

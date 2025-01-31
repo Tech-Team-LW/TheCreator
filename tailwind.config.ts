@@ -11,7 +11,11 @@ const config: Config = {
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
+<<<<<<< HEAD
 			backgroundColor:'rgb(81, 81, 81)',
+=======
+			backgroundColor:'rgb(32,32,32)',
+>>>>>>> cd61260 (update code)
   			foreground: 'hsl(var(--foreground))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',

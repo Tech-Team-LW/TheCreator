@@ -62,7 +62,7 @@ const Hero = () => {
           {/* Gradient overlay connecting left and right sections */}
           <div className="absolute left-0 inset-y-0 w-16 bg-gradient-to-r from-red-600/20 to-transparent z-10" />
           
-          <div className="bg-white/80 backdrop-blur-sm h-full  md:pl-32 md:pt-6">
+          <div className="bg-black backdrop-blur-sm h-full  md:pl-32 md:pt-6">
             <div className="relative z-10">
             <IndiaMap
   connections={[
@@ -92,7 +92,7 @@ const Hero = () => {
 
       </div>
         <div className="relative md:-mt-12 lg:-mt-12 z-50">
-              <div className="bg-white rounded-lg p-4 shadow-lg max-w-6xl mx-auto">
+              <div className={`bg-black rounded-lg p-4 shadow-lg max-w-6xl mx-auto`}>
                 <div className="flex flex-col lg:flex-row justify-between items-start gap-4"> {/* Adjusted for consistency */}
                   {/* Info Sections Container */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
@@ -100,7 +100,7 @@ const Hero = () => {
                     <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
                       <MdOnlinePrediction className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1" />
                       <div>
-                        <span className="text-black text-xs font-medium">SUMMER TRAINING </span>
+                        <span className="text-white text-xs font-medium">SUMMER TRAINING </span>
                         <span className="font-bold text-xs block"></span>
                       </div>
                     </div>
@@ -109,8 +109,8 @@ const Hero = () => {
                     <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
                       <BsCalendarCheck className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1" />
                       <div>
-                        <span className="text-black text-xs font-medium"> TENTATIVE START DATES</span>
-                        <span className="font-bold text-xs block">May, 2025 <br /> June, 2025 <br /> July, 2025</span>
+                        <span className="text-white text-xs font-medium"> TENTATIVE START DATES</span>
+                        <span className="font-bold text-xs block text-white">May, 2025 <br /> June, 2025 <br /> July, 2025</span>
                         <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px] mt-0.5">
                           Limited seats
                         </Badge>
@@ -121,10 +121,10 @@ const Hero = () => {
                     <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
                       <AiOutlineHourglass className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1" />
                       <div>
-                        <span className="text-black text-xs font-medium">DURATION SUMMER PROGRAM​</span>
+                        <span className="text-white text-xs font-medium">DURATION SUMMER PROGRAM​</span>
                         <div className="flex flex-col gap-1">
                           <div className="flex items-center gap-2">
-                             <span className="font-bold text-xs">6 weeks / 8 weeks</span>
+                             <span className="font-bold text-xs text-white">6 weeks / 8 weeks</span>
                              {/* <span className="line-through text-gray-400 text-xs">₹75,000</span>
                              <span className="text-green-600 font-semibold text-[10px]">
                                Save ₹30,000/-
@@ -151,8 +151,8 @@ const Hero = () => {
                     <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
                       <BsCalendarCheck className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1" />
                       <div>
-                        <span className="text-black text-xs font-medium">DELIVERABLES FOR 6 WEEKS SUMMER PROGRAM​</span>
-                        <span className="font-bold text-xs block"> - Industry Recognised Internship (Project) Certificate <br /> - Training Certificate from LinuxWorld Informatics Pvt Ltd</span>
+                        <span className="text-white text-xs font-medium">DELIVERABLES FOR 6 WEEKS SUMMER PROGRAM​</span>
+                        <span className="font-bold text-xs block text-white"> - Industry Recognised Internship (Project) Certificate <br /> - Training Certificate from LinuxWorld Informatics Pvt Ltd</span>
 
                       </div>
                     </div>

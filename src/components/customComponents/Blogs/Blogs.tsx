@@ -29,11 +29,11 @@ const Blogs = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12">
+    <div className="max-w-7xl mx-auto px-4 py-12 bg-black">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Our Latest Blog</h1>
-        <p className="text-gray-600">
+        <h1 className="text-4xl font-bold mb-4 text-white">Our Latest Blog</h1>
+        <p className="text-white-600">
           A Gateway to Insightful Stories and Expertise, Unveiling a Tapestry of Ideas and Inspiration.
         </p>
       </div>

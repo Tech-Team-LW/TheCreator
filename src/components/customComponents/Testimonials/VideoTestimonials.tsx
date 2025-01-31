@@ -47,10 +47,10 @@ export default function VideoTestimonials() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
+    <div className="max-w-7xl mx-auto px-4 md:px-8 py-12 bg-black">
       <header className="mb-8 space-y-2">
         <div className="flex items-center gap-4">
-          <h1 className="text-3xl font-bold tracking-tight">
+          <h1 className="text-3xl font-bold tracking-tight text-white">
             Hear it From Our Learners
           </h1>
           <span className="bg-orange-500 text-white px-3 py-1 rounded-md text-sm">

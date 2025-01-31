@@ -141,7 +141,7 @@ const BentoGallery = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-slate-800 p-0">
+    <div className="w-full min-h-screen bg-black p-0">
       <BentoGrid
         items={bentoItems}
         gridCols={8}

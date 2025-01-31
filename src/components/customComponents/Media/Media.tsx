@@ -52,7 +52,7 @@ const mediaData = [
 
 export default function MediaSection() {
   return (
-    <div className="min-h-full w-full flex items-center justify-center bg-zinc-900 p-4">
+    <div className="min-h-full w-full flex items-center justify-center bg-black p-4">
       <div className="max-w-6xl w-full rounded-lg p-8">
         <div className="text-center mb-8">
           <span className="text-yellow-400 text-sm">✦ PIONEERING EDUCATION</span>
